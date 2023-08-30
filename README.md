@@ -1,10 +1,10 @@
 # friend-tech-monitor
-Send discord webhook when specific users sign up to friend tech 
+Send discord webhook when specific twitter users sign up to friend tech. The webhook will contain their twitter username and wallet address
 
 
 To run monitor a discord webhook, and friend tech jwt token needs to be entered within the index.js 
 
-to add a user to the monitor a post request needs to be sent to /addUsername while the monitor is running for each user desire to add. 
+to add a user to the monitor a post request needs to be sent to /addUsername with the twitter username while the monitor is running for each user desire to add. 
 
 Once a specific user signs up a discord webhook will be sent and they will be remove from the list of monitored users
 
